@@ -1,22 +1,30 @@
 # Perlin Noise Playground
 
-This project is a simple playground for experimenting with Perlin noise using the noisejs package. Perlin noise is a gradient noise function often used in computer graphics to generate natural-looking textures, terrain, and other effects.
+This React app is a simple playground for experimenting with Perlin noise using the noisejs package. Perlin noise is a gradient noise function often used in computer graphics to generate natural-looking textures, terrain, and other effects.
 
-## Overview
+## Options
 
-The project consists of an HTML file (`index.html`) containing a canvas element and two JavaScript files (`noise.js` and `main.js`).
+- **Octaves:** Adjust the octaves to control the complexity and detail of the Perlin-noise patterns. More octaves result in more intricate land formations.
 
-## Project Structure
+- **Zoom:** Change the frequency (zoom) to scale the continents and oceans. Zooming in produces smaller, detailed landmasses, while zooming out results in larger and more generalized shapes.
 
-- **index.html**: The main HTML file that includes the canvas element and script references.
-  
-- **noise.js**: The noisejs library, a JavaScript file containing the implementation of the Perlin noise generator.
+- **Seed:** Modify the seed to generate different pseudo-random patterns. Each seed value produces a unique landscape, allowing you to explore various terrains by changing this parameter.
 
-- **main.js**: JavaScript file for utilizing the Perlin noise generator to create visualizations on the canvas.
+- **Colored:** Toggle the color option to switch between a landmass and ocean representation or a traditional black and white Perlin-noise pattern. The colored view provides a visual distinction between land and water.
 
-## Usage
+- **Refresh:** Click the refresh button to apply any changes made to the octaves, zoom, seed, or color parameters. This allows you to observe the impact of adjustments in real-time.
 
-Open the `index.html` file in a web browser to visualize the Perlin noise effects. Experiment with the parameters in `main.js` to customize the noise generation and visualization.
+## How to Use
+
+1. clone or download the repository to your local machine.
+2. Open the project in your preferred code editor.
+3. Run the app locally by opening the terminal and navigating to the project directory.
+4. Run npm install in the root directory.
+5. Open the app in your web browser by visiting the local server address.
+6. Experiment with the sliders for octaves, zoom, seed, and color.
+7. Click the refresh button to apply changes and visualize the updated Perlin-noise landscape.
+
+
 
 ## Attribution
 (noise.js)
