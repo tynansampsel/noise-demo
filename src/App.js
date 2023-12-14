@@ -20,7 +20,7 @@ function App() {
 		//setInterval('t()',20);
 		generateMap(noise)
 	}, [])
-	
+
 	const getGradient = (v) => {
 		return v * 255;
 	}
@@ -157,6 +157,8 @@ function App() {
 					className={"tyButton"}
 					onClick={() => setColored(!colored)}
 				>{colored ? "colored" : "black and white"}</div>
+
+				<p>Perlin Noise by Stefan Gustavson and converted by Joseph Gentle</p>
 			</header>
 		</div>
 	);
