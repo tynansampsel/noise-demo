@@ -32,5 +32,7 @@ Stefan Gustavson. You may use it as you see fit, but
 attribution is appreciated.
 
 ## Demo
-//thanks for the idea 
+//thanks for the idea Jamie Dawson!
 https://tynansampsel.github.io/noise-demo
+
+
