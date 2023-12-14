@@ -21,7 +21,7 @@ This React app is a simple playground for experimenting with Perlin noise using 
 3. Run the app locally by opening the terminal and navigating to the project directory.
 4. Run npm install in the root directory.
 5. Open the app in your web browser by visiting the local server address.
-6. Experiment with the sliders for octaves, zoom, seed, and color.
+6. Experiment with the options for octaves, zoom, seed, and color.
 7. Click the refresh button to apply changes and visualize the updated Perlin-noise landscape.
 
 
