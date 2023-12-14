@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Perlin Noise Playground
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple playground for experimenting with Perlin noise using the noisejs package. Perlin noise is a gradient noise function often used in computer graphics to generate natural-looking textures, terrain, and other effects.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The project consists of an HTML file (`index.html`) containing a canvas element and two JavaScript files (`noise.js` and `main.js`).
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **index.html**: The main HTML file that includes the canvas element and script references.
+  
+- **noise.js**: The noisejs library, a JavaScript file containing the implementation of the Perlin noise generator.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **main.js**: JavaScript file for utilizing the Perlin noise generator to create visualizations on the canvas.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open the `index.html` file in a web browser to visualize the Perlin noise effects. Experiment with the parameters in `main.js` to customize the noise generation and visualization.
 
-### `npm run build`
+## Attribution
+(noise.js)
+Based on example code by Stefan Gustavson (stegu@itn.liu.se).
+Optimisations by Peter Eastman (peastman@drizzle.stanford.edu).
+Better rank ordering method by Stefan Gustavson in 2012.
+Converted to Javascript by Joseph Gentle.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Version 2012-03-09
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This code was placed in the public domain by its original author,
+Stefan Gustavson. You may use it as you see fit, but
+attribution is appreciated.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -14,14 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ebe8ec;
 }
 
 .App-link {
@@ -35,4 +34,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.tyButton {
+  background-color: #bba579;
+  color:#faecde;
+  border: 5px solid #816544;
+
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  cursor:pointer;
+  margin-bottom: 5px;
+}
+
+.tyButton:hover {
+  background-color: #ebe8ec;
+  color:#584f5d;
+}
+
+.off {
+  background-color: #303030;
+  color:#584f5d;
+}
+
+body { 
+  padding-top: 200; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4d5b6;
+
+}
+canvas { 
+  display: block;
+  border: solid 5px #9c9b5d;
+}
+
+label {
+  color: #1f190f;
 }
