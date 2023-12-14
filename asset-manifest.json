@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/noise-demo/static/css/main.1849f841.css",
+    "main.css": "/noise-demo/static/css/main.1e04bca6.css",
     "main.js": "/noise-demo/static/js/main.90da4fed.js",
     "index.html": "/noise-demo/index.html",
-    "main.1849f841.css.map": "/noise-demo/static/css/main.1849f841.css.map",
+    "main.1e04bca6.css.map": "/noise-demo/static/css/main.1e04bca6.css.map",
     "main.90da4fed.js.map": "/noise-demo/static/js/main.90da4fed.js.map"
   },
   "entrypoints": [
-    "static/css/main.1849f841.css",
+    "static/css/main.1e04bca6.css",
     "static/js/main.90da4fed.js"
   ]
 }
